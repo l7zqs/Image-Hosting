@@ -2,7 +2,7 @@
 
 A fast, minimal image hosting web app. Drop in an image, get direct, display and viewer links in seconds. Built with Next.js, React and Tailwind CSS, and powered by the [imgBB](https://api.imgbb.com/) upload API.
 
-> **Heads up:** uploads are sent with `expiration=600`, so every image is **automatically deleted after 10 minutes**. See [Changing the expiry time](#changing-the-expiry-time) to change this.
+> **Heads up:** uploads are sent with `expiration=15552000`, so every image is **automatically deleted after 180 days**. See [Changing the expiry time](#changing-the-expiry-time) to change this.
 
 ---
 
